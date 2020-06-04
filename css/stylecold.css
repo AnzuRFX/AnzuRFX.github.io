@@ -1,0 +1,398 @@
+@font-face {
+    font-family: PTSans;
+    src: url(../fonts/2221.ttf);
+   }
+
+html{
+    text-align: center;
+    font-family: "PTSans";
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.ico{
+    left: 0px;
+    top: 50px;
+    position: absolute;
+    width: 1420px;
+    height: 700px;
+}
+
+.head{
+    z-index: 10;
+    position: fixed;
+    display: inline-block;
+    margin: 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: deepskyblue;
+    text-align: center;
+}
+
+.subn{
+    position: fixed;
+    top: 6px;
+    left: 7px;
+    width: 65px;
+    height: 65px;
+}
+
+.test{
+    display: inline-block;
+    width:
+}
+
+.mh{
+    border-radius: 6px;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    background-color: deepskyblue;
+    color:black;
+    left: 430px;
+    top: 865px;
+}
+
+.md{
+    border-radius: 6px;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    background-color: deepskyblue;
+    color:black;
+    width: 50%;
+    left: 350px;
+    top: 950px;
+}
+
+.mon1{
+    text-align: center;
+    background-color:deepskyblue;
+    color: black;
+    border-radius: 10px;
+    position:absolute;
+    left: 175px;
+    top: 1050px;
+    margin: 50px;
+    padding: 30px;
+    display: inline-block;
+    width: 400px;
+}
+
+.mon4{
+    text-align: center;
+    background-color:deepskyblue;
+    color: black;
+    border-radius: 10px;
+    position:absolute;
+    left: 175px;
+    top: 1650px;
+    margin: 50px;
+    padding: 30px;
+    display: inline-block;
+    width: 400px;
+}
+
+.mon3{
+    text-align: center;
+    background-color:deepskyblue;
+    color: black;
+    border-radius: 10px;
+    position:absolute;
+    right: 175px;
+    top: 1450px;
+    margin: 50px;
+    padding: 30px;
+    display: inline-block;
+    width: 400px;
+}
+
+.mon2{
+    text-align: center;
+    background-color:deepskyblue;
+    color: black;
+    border-radius: 10px;
+    position:absolute;
+    right: 175px;
+    top: 1050px;
+    margin: 50px;
+    padding: 30px;
+    display: inline-block;
+    width: 400px;
+}
+
+.levi1{
+    text-align: center;
+    background-color:deepskyblue;
+    color: black;
+    border-radius: 10px;
+    position:absolute;
+    left: 150px;
+    top: 2100px;
+    margin: 50px;
+    padding: 30px;
+    display: inline-block;
+    width: 1000px;
+}
+
+.levi2{
+    text-align: center;
+    background-color:deepskyblue;
+    color: black;
+    border-radius: 10px;
+    position:absolute;
+    left: 150px;
+    top: 3350px;
+    margin: 50px;
+    padding: 30px;
+    display: inline-block;
+    width: 1000px;
+}
+
+.levi3{
+    text-align: center;
+    background-color:deepskyblue;
+    color: black;
+    border-radius: 10px;
+    position:absolute;
+    left: 150px;
+    top: 4080px;
+    margin: 50px;
+    padding: 30px;
+    display: inline-block;
+    width: 1000px;
+}
+
+.iw{
+    transition: 0.3s;
+    width: 1000px;
+    height: 500px;
+}
+
+.iw:hover{
+    transition: 0.3s;
+    z-index: 2;
+    transform:scale(1.35);
+}
+
+.sl{
+    transition: 0.3s;
+    width: 1000px;
+    height: 350px;
+}
+
+.sl:hover{
+    transition: 0.3s;
+    z-index: 2;
+    transform:scale(1.35);
+}
+
+.ch{
+    transition: 0.3s;
+    width: 1000px;
+    height: 500px;
+}
+
+.ch1{
+    transition: 0.3s;
+    width: 1000px;
+    height: 500px;
+}
+
+.brn{
+    transition: 0.3s;
+    width: 350px;
+    height: 350px;
+}
+
+.brn:hover{
+    transition: 0.3s;
+    z-index: 2;
+    transform:scale(2);
+}
+
+.brsh{
+    transition: 0.3s;
+    width: 350px;
+    height: 175px;
+}
+
+.brsh:hover{
+    transition: 0.3s;
+    z-index: 2;
+    transform:scale(2);
+}
+
+.sqsh{
+    transition: 0.3s;
+    width: 350px;
+    height: 175px;
+}
+
+.sqsh:hover{
+    transition: 0.3s;
+    z-index: 2;
+    transform:scale(2);
+}
+
+.cr{
+    transition: 0.3s;
+    width: 350px;
+    height: 175px;
+}
+
+.cr:hover{
+    transition: 0.3s;
+    z-index: 2;
+    transform:scale(2);
+}
+
+.button-l{
+    transition: 1s;
+    text-align: center;
+    color: black;
+    background-color: dodgerblue;
+    border: 2px solid white;
+    width: 150px;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 3px;
+    margin-right: 30px;
+    /*
+    width: 150px;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 130px;
+    */
+}
+
+.button-r{
+    transition: 1s;
+    text-align: center;
+    color: black;
+    background-color: skyblue;
+    border: 2px solid white;
+    width: 150px;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 3px;
+    margin-left: 30px;
+    /*
+    width: 150px;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 130px;
+    */
+}
+
+.button-c{
+    transition: 1s;
+    text-align: center;
+    color: black;
+    background-color: deepskyblue;
+    border: 2px solid white;
+    width: 150px;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 3px;
+    /*
+    width: 150px;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 20px;
+    text-align: center;
+    margin: 10px 130px;
+    */
+}
+
+.button-c:hover{
+    transition: 1s;
+    background-color: white;
+    border-color: black;
+}
+
+.button-r:hover{
+    transition: 1s;
+    background-color: white;
+    border-color: black;
+}
+
+.button-l:hover{
+    transition: 1s;
+    background-color: white;
+    border-color: black;
+}
+
+.trash{
+    background-color: deepskyblue;
+    width: 100%;
+    height: 75px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 725px;
+}
+
+.pf{
+    left: 485px;
+    color: black;
+    position: absolute;
+    top: 4700px;
+}
+
+.foot{
+    color: black;
+    font-size: 10px;
+    padding: 10px;
+    display: inline-block;
+    position: absolute;
+    background-color: deepskyblue;
+    width: 100%;
+    left: 0px;
+    top: 4800px;
+    margin: 0px;
+    padding: 0px;
+    height: 75px;
+}
+
+.vk-d{
+    transition: 0.3s;
+    border-radius: 10px;
+    position: absolute;
+    display:inline-block;
+    width:50px;
+    height:50px;
+    right: 20px;
+    top: 13px;
+    background-color: deepskyblue;
+}
+
+.vk-d:hover{
+    transition: 0.3s;
+    background-color:white;
+}
+
+.vk{
+    top:0px;
+    left:0px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited
+{
+    color:black;
+}
